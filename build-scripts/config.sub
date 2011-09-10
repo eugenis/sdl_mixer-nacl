@@ -314,7 +314,7 @@ case $basic_machine in
 	i*86 | x86_64)
 	  basic_machine=$basic_machine-pc
 	  ;;
-	nacl64*)
+	nacl64* | x86_64-nacl )
 	  basic_machine=x86_64-pc
 	  os=-nacl
 	  ;;
